@@ -1,0 +1,110 @@
+*{
+    margin: 0in;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+.les{
+    justify-content: center ;
+    margin-top: 40px;
+    width: 40vh;
+    height: 14vh;
+    float: left;
+    margin-right: 8%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC7hpJiMJEK3RG-nMb_cIyolPMrHkqR9jV8AncXivmde8eRHnKyfHcblsguqkFZjhefAM&usqp=CAU);
+    border: rgb(178, 199, 221) 3px solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px -6px 28px 7px rgba(0,0,0,0.44); 
+    box-shadow: 6px -6px 28px 7px rgba(0,0,0,0.44);
+}
+.lobby{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    
+}
+.vse_1{
+    width: 175vh;
+    border-radius: 7px;
+    height: 400px;
+    margin-left: 120px;
+    padding-left: 15px;
+    background-color: skyblue;
+}    
+.lol{
+    margin-left: 58px;
+    margin-top: 15px;
+    padding-top: 3px;
+    width: 20vh;
+    height: 4vh;
+    border-radius: 5px;
+    border: lightskyblue 2px solid;  
+}
+a{
+    padding-top: 3px;
+    text-align: center;
+    color: black;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    padding-top: 9px;
+    padding-left: 15px;
+}
+.vse_1:hover{
+    background-color: lightblue;
+}
+.vse_2{
+    margin-top: 40px;
+    width: 175vh;
+    border-radius: 7px;
+    height: 770px;
+    margin-left: 120px;
+    padding-left: 15px;
+    background-color: skyblue;
+}
+.vse_2:hover{
+    background-color: lightblue;
+}
+.lel1{
+    display: flex;
+    justify-content: center;
+}
+.lel2{
+    display: flex;
+    justify-content: center;
+}
+.lol:hover{
+    background-color: rgb(187, 215, 224);
+}
